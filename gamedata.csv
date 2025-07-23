@@ -1,0 +1,12 @@
+timestamp,player_id,event,score
+2025-07-22T12:00:00Z,player_1,game_started,
+2025-07-22T12:01:00Z,player_1,hit_target,50
+2025-07-22T12:02:00Z,player_1,missed_shot,-10
+2025-07-22T12:03:00Z,player_1,collected_coin,20
+2025-07-22T12:05:00Z,player_1,game_over,
+2025-07-22T13:00:00Z,player_2,game_started,
+2025-07-22T13:01:00Z,player_2,hit_target,40
+2025-07-22T13:02:00Z,player_2,collected_coin,30
+2025-07-22T13:04:00Z,player_2,hit_target,50
+2025-07-22T13:05:00Z,player_2,missed_shot,-20
+2025-07-22T13:06:00Z,player_2,game_over,
