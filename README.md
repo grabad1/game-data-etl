@@ -1,18 +1,18 @@
 # 🎮 Game Data ETL
 
-Jednostavan ETL projekat za praksu Data Engineering pozicije.
+A simple ETL project for a Data Engineering internship.
 
-- Učitava CSV fajl sa game eventovima
-- Izdvaja početak i kraj sesije po igraču
-- Računa ukupne poene i vreme trajanja igre
-- Snima podatke u SQLite bazu (`logs` i `player_summary` tabele)
+- Loads a CSV file with game events  
+- Extracts start and end of sessions per player  
+- Calculates total points and session duration  
+- Saves data into a SQLite database (`logs` and `player_summary` tables)  
 
-## Pokretanje
+## How to run
 
-1. Instaliraj zavisnosti:
-pip install pandas
-Pokreni skriptu:
+1. Install dependencies:  
+pip install panda
 
-2. Pokreni:
+2. Run the script:
 python etl_pipeline.py
-3. Otvori game_data.db bazu u SQLite vieweru da pogledaš tabele.
+
+3. Open the game_data.db database in a SQLite viewer to check the tables.
